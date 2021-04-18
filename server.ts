@@ -1,9 +1,9 @@
-import { Application, Router } from "https://deno.land/x/oak/mod.ts";
+import { Application, Router } from "./deps.ts";
 
 const router = new Router();
 
 router.get("/", (context) => {
-  context.response.body = "Hello world";
+  context.response.body = "Hello world!";
 });
 
 const app = new Application();
