@@ -2,7 +2,7 @@
 
 ## Run
 
-**Dev**: `deno run --watch --unstable --allow-net server.ts`
+**Dev**: `deno run --watch --unstable --allow-net --allow-read --allow-write server.ts`
 
 ## Errors when running
 
